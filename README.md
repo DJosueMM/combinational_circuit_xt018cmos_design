@@ -47,4 +47,4 @@ Este es el layout de una compuerta NOR con transistores P de 540nm y N de 270nm.
 
 ![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/75d46e81-dd26-4cc6-a045-252212822d62)
 
-
+Pendiente imágenes y análisis de la simulación de los tiempos de propagación y contaminación, además del layout de las dos compuertas ya que se está esperando a que el servidor funcione de nuevo.
