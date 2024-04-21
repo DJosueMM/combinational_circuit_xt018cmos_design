@@ -29,12 +29,13 @@ Ser realizaron diversos deck para comprobar el funcionamiento
 ## Trazado con las capacitacias parásitas
 ### Compuerta compleja
 A continuación se presenta el diseño de la compuerta con los tamaños de transistores necesarios y el diagrama de palitos. 
-![WhatsApp Image 2024-04-19 at 11 13 20 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/996a248f-92e7-4624-90e4-cd106931f1b9)
+![WhatsApp Image 2024-04-21 at 12 13 45 AM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6f5a80f2-ee7e-4965-b716-87b3207eb1d3)
 
 
 ### Compuerta con etapas simples
 A continuación se presenta el diseño de la compuerta con los tamaños de transistores necesarios y el diagrama de palitos. 
-![WhatsApp Image 2024-04-19 at 11 09 59 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6aa84fd4-0353-4336-b958-fa8d5000a9fe)
+![WhatsApp Image 2024-04-21 at 12 11 36 AM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/63a72020-4805-47f7-84ec-3493fd615aca)
+
 
 ## Simulación post-trazado con las capacitacias parásitas
 ### Compuerta compleja
