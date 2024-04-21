@@ -53,32 +53,44 @@ A continuación se presenta el diseño de la compuerta con los tamaños de trans
 ## Parte 4. Verificación funcional eléctrica y lógica para ambos circuitos
 
 ### Compuerta compleja
+Compuerta compleja
 
+Inversor
+
+![inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/f7611b4e-43bb-4e6a-9a4d-fa58a3e3932a)
 
 ### Compuerta con etapas simples
 Para la primera nor se implemento el siguiente esquema de transistores.
-
+![nor_ent](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/93c0cde3-0f55-471b-956c-a28b8d616a73)
 
 Por otro lado para la nor de salida se realizo el siguiente esquema.
-
+![nor_sal](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b0b050da-8cb6-43e2-9bb8-efb821feccee)
 
 Para realizar la verficación del funcionamiento de la compuerta se realizo el siguiente diagrama.
+![prueba](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/35b73edb-328a-4153-ac0d-430006ea2fcc)
 
 
 
 ## Parte 5. Trazado con las capacitacias parásitas
 
 ### Compuerta compleja
+Compuerta compleja
+
+Inversor
+
+![layout_inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/c4b3c66b-fcea-421f-83a3-519fe180aa06)
 
 
 ### Compuerta con etapas simples
 Este es el layout de una compuerta NOR con transistores P de 540nm y N de 270nm.
-![WhatsApp Image 2024-04-18 at 5 51 31 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/9a8951f7-54d7-468b-b356-f188f912b1f7)
+![layout_nor_entr](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/997dfcf7-45d6-4385-8e28-fced79b99943)
 
 Este es el layout de una compuerta NOR con transistores P de 720nm y N de 360nm.
+![layout_nor_sal](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/f18fa613-669b-41ff-b0b1-61cc85a44640)
 
 
 La prueba a realizar para observar el funcionamiento se aprecia en la siguiente imagen. 
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/97082037-7602-492a-93cc-bff8d096e532)
 
 
 
