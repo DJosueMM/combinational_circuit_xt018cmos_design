@@ -55,6 +55,7 @@ A continuación se presenta el diseño de la compuerta con los tamaños de trans
 ### Compuerta compleja
 Compuerta compleja
 
+
 Inversor
 
 ![inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/f7611b4e-43bb-4e6a-9a4d-fa58a3e3932a)
@@ -75,6 +76,7 @@ Para realizar la verficación del funcionamiento de la compuerta se realizo el s
 
 ### Compuerta compleja
 Compuerta compleja
+![comp_gatet2_starrc_C_RC](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/5dc1d3e4-7fa3-421e-a3cb-f195d771558c)
 
 Inversor
 ![layout_inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/0b2cf507-70d3-4cca-a293-572600a74200)
