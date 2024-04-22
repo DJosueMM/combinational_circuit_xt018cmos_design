@@ -77,8 +77,9 @@ Para realizar la verficación del funcionamiento de la compuerta se realizo el s
 Compuerta compleja
 
 Inversor
+![layout_inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/0b2cf507-70d3-4cca-a293-572600a74200)
 
-![layout_inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/c4b3c66b-fcea-421f-83a3-519fe180aa06)
+
 
 
 ### Compuerta con etapas simples
