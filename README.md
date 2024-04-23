@@ -8,20 +8,17 @@ Diseñar un circuito CMOS estático para calcular F = (A + B)(C + D) con el meno
 
 ### Compuerta compleja
 Para la estimación del retardo se realizaron los siguientes cálculos:
-![WhatsApp Image 2024-04-19 at 10 47 59 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/a24a9b17-6387-4d2f-9950-2d08de2075d6)
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/25fbc19c-1000-4058-bf3d-92e2d6b50e5c)
 
 En el caso de consumo promedio de potencia se llevo a cabo el siguiente análisis:
-![WhatsApp Image 2024-04-19 at 10 50 41 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/443cf5e8-7cf1-4539-88c6-86c919d10636)
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/362c514b-45c8-4e6a-9856-ae578cfff5e6)
 
 ### Compuerta con etapas simples
 Para la estimación del retardo se realizaron los siguientes cálculos:
-![WhatsApp Image 2024-04-19 at 10 56 12 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/d9f715c6-8552-4f35-9a2a-ef4e4a0d8438)
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/357ce5cb-f5f2-4e7a-840c-dac2feb9ee97) 
 
 En el caso de consumo promedio de potencia se llevo a cabo el siguiente análisis:
-![WhatsApp Image 2024-04-19 at 10 58 08 PM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/73d2950b-24f8-4659-ab4d-b589f31f6331)
-
-### Comparativa
-
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/e98854c7-ad3a-4aa7-b17a-1355382d73e6)
 
 
 
@@ -31,21 +28,37 @@ Usando τ de subida de 21.31ps y un τ de bajada de 30.64ps considerando una tec
 
 ### Compuerta compleja
 
+<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b3581206-7c6e-48c4-992c-ab173481afd3" width="600" Align="center">
+
+<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/654978e4-6ee3-4c8e-8804-9fef9d834d96" width="600" Align="center">
+
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/d49fd028-f1ff-44d7-9843-d3cc7c3c73d4)
+
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6efd9e75-0e91-4528-9b93-0386008226fd)
+
+
 ### Compuerta con etapas simples
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/e2adbd04-4768-481e-a49d-3b2cc5a61eaf)
 
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/5bbe5be2-4e7a-4357-a26a-382183b2e62d)
 
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/1c1a3d94-dcb2-4263-9a2b-ec2b42ffdc0e)
+
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/08cfa69b-da2c-4bd2-aa06-9a645ed3b110)
+
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/1aaed5c4-4fd9-4a8a-ae74-2d6241bbc3ee)
 
 
 ## Parte 3. Diseño de las compuertas y selección de tamaños
 
 ### Compuerta compleja
 A continuación se presenta el diseño de la compuerta con los tamaños de transistores necesarios y el diagrama de palitos. 
-![WhatsApp Image 2024-04-21 at 12 13 45 AM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6f5a80f2-ee7e-4965-b716-87b3207eb1d3)
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/52d8ca3d-0873-4999-90e8-af8ba7e33fca)
 
 
 ### Compuerta con etapas simples
 A continuación se presenta el diseño de la compuerta con los tamaños de transistores necesarios y el diagrama de palitos. 
-![WhatsApp Image 2024-04-21 at 12 11 36 AM](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/63a72020-4805-47f7-84ec-3493fd615aca)
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/8ef37a0e-7f57-4c70-b168-3714a1176297)
 
 
 
@@ -58,43 +71,45 @@ Compuerta compleja
 
 Inversor
 
-![inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/f7611b4e-43bb-4e6a-9a4d-fa58a3e3932a)
+![basic_cells_inv1x1_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6710b093-360c-4337-a3fa-cd09cfd7f253)
+
 
 ### Compuerta con etapas simples
 Para la primera nor se implemento el siguiente esquema de transistores.
-![nor_ent](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/93c0cde3-0f55-471b-956c-a28b8d616a73)
+
+![basic_cells_nor_ent_2x1_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/4f297619-0d02-45ff-8765-c971eb206e97)
 
 Por otro lado para la nor de salida se realizo el siguiente esquema.
-![nor_sal](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b0b050da-8cb6-43e2-9bb8-efb821feccee)
+
+![basic_cells_nor_sal_2x1_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/827b5dde-2d40-405a-a11f-2d18ed25a87e)
 
 Para realizar la verficación del funcionamiento de la compuerta se realizo el siguiente diagrama.
-![prueba](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/35b73edb-328a-4153-ac0d-430006ea2fcc)
 
+![basic_cells_test_compuerta_simple_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/25977f50-510c-4f97-9010-d3815e81cab6)
 
 
 ## Parte 5. Trazado con las capacitacias parásitas
 
 ### Compuerta compleja
 Compuerta compleja
+
 ![comp_gatet2_starrc_C_RC](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/5dc1d3e4-7fa3-421e-a3cb-f195d771558c)
 
 Inversor
-![layout_inv](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/0b2cf507-70d3-4cca-a293-572600a74200)
 
+![basic_cells_inv1x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/cdb962bf-5840-4492-8250-280192988cf6)
 
 
 
 ### Compuerta con etapas simples
 Este es el layout de una compuerta NOR con transistores P de 540nm y N de 270nm.
-![layout_nor_entr](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/997dfcf7-45d6-4385-8e28-fced79b99943)
+
+![basic_cells_nor_ent_2x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b35c99d2-4494-483f-b1d6-1cb00523535f)
+
 
 Este es el layout de una compuerta NOR con transistores P de 720nm y N de 360nm.
-![layout_nor_sal](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/f18fa613-669b-41ff-b0b1-61cc85a44640)
 
-
-La prueba a realizar para observar el funcionamiento se aprecia en la siguiente imagen. 
-![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/97082037-7602-492a-93cc-bff8d096e532)
-
+![basic_cells_nor_sal_2x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/4d9a60f7-cb35-4d54-a5b1-c9deeccb90c5)
 
 
 
