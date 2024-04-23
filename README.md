@@ -28,13 +28,13 @@ Usando τ de subida de 21.31ps y un τ de bajada de 30.64ps considerando una tec
 
 ### Compuerta compleja
 
-<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b3581206-7c6e-48c4-992c-ab173481afd3" width="500">
+<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b3581206-7c6e-48c4-992c-ab173481afd3" width="600" Align="center">
 
-<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/654978e4-6ee3-4c8e-8804-9fef9d834d96" width="500">
+<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/654978e4-6ee3-4c8e-8804-9fef9d834d96" width="600" Align="center">
 
 ![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/d49fd028-f1ff-44d7-9843-d3cc7c3c73d4)
 
-![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/1919611c-a166-4de0-8b28-582ed55f26e9)
+![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6efd9e75-0e91-4528-9b93-0386008226fd)
 
 
 ### Compuerta con etapas simples
