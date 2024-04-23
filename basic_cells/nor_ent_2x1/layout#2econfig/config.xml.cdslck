@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Rojas_Sanchez_I_2024_vlsi
+HostName                       redhat003
+ProcessIdentifier              724557
+ProcessCreationTime_UTC        1713455454
+ProcessCreationTime_Readable   Thu 18 Apr 2024 09:50:54 AM CST CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /mnt/vol_NFS_rh003/Est_VLSI_I_2024/Rojas_Sanchez_I_2024_vlsi/Tutorial_01/basic_cells/nor_ent_2x1/layout#2econfig/config.xml.cdslck
+TimeEditLocked                 Thu 18 Apr 2024 10:12:32 AM CST CST
