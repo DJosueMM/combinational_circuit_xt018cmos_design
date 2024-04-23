@@ -27,10 +27,13 @@ En el caso de consumo promedio de potencia se llevo a cabo el siguiente análisi
 Usando τ de subida de 21.31ps y un τ de bajada de 30.64ps considerando una tecnología de transistores 1.8V (ne,pe) de un proceso XH018 - 0.18 µm.
 
 ### Compuerta compleja
+<p align="center">
+<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b3581206-7c6e-48c4-992c-ab173481afd3" width="550">
+</p>
 
-<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b3581206-7c6e-48c4-992c-ab173481afd3" width="600" Align="center">
-
-<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/654978e4-6ee3-4c8e-8804-9fef9d834d96" width="600" Align="center">
+<p align="center">
+<img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/654978e4-6ee3-4c8e-8804-9fef9d834d96" width="550">
+</p>
 
 ![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/d49fd028-f1ff-44d7-9843-d3cc7c3c73d4)
 
