@@ -70,6 +70,7 @@ A continuación se presenta el diseño de la compuerta con los tamaños de trans
 
 ### Compuerta compleja
 Compuerta compleja
+![basic_cells_comp_gatet2_schematic](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/396bd629-e9b7-493c-9ed2-63500812a2a1)
 
 
 Inversor
