@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Apr 18 11:22:58 2024-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="mixedSignalOptions" type="saMixedSignalOptions">
+  <collection name="a2dInterfaceElements">
+   <object version="1" name="a2dInterfaceElements" type="saA2DInterfaceElement">
+    <attribute value="" name="ceff" type="giString"/>
+    <attribute value="/f" name="element" type="giString"/>
+    <attribute value="net" name="elementType" type="saElementType"/>
+    <attribute value="off" name="highImpedance" type="saHiZState"/>
+    <attribute value="80" name="highThreshold" type="giString"/>
+    <attribute value="20" name="lowThreshold" type="giString"/>
+    <attribute value="X" name="midvLogic" type="saLogicValue"/>
+    <attribute value="" name="midvTime" type="giString"/>
+    <attribute value="0.1" name="minv" type="giString"/>
+    <attribute value="Z" name="minvLogic" type="saLogicValue"/>
+    <attribute value="%" name="thresholdUnit" type="saIEThresholdUnit"/>
+    <attribute value="/vdd!" name="vdd" type="giString"/>
+    <attribute value="" name="xband" type="giString"/>
+   </object>
+   <object version="1" name="a2dInterfaceElements" type="saA2DInterfaceElement">
+    <attribute value="" name="ceff" type="giString"/>
+    <attribute value="/a" name="element" type="giString"/>
+    <attribute value="net" name="elementType" type="saElementType"/>
+    <attribute value="off" name="highImpedance" type="saHiZState"/>
+    <attribute value="80" name="highThreshold" type="giString"/>
+    <attribute value="20" name="lowThreshold" type="giString"/>
+    <attribute value="X" name="midvLogic" type="saLogicValue"/>
+    <attribute value="" name="midvTime" type="giString"/>
+    <attribute value="0.1" name="minv" type="giString"/>
+    <attribute value="Z" name="minvLogic" type="saLogicValue"/>
+    <attribute value="%" name="thresholdUnit" type="saIEThresholdUnit"/>
+    <attribute value="/vdd!" name="vdd" type="giString"/>
+    <attribute value="" name="xband" type="giString"/>
+   </object>
+   <object version="1" name="a2dInterfaceElements" type="saA2DInterfaceElement">
+    <attribute value="" name="ceff" type="giString"/>
+    <attribute value="/b" name="element" type="giString"/>
+    <attribute value="net" name="elementType" type="saElementType"/>
+    <attribute value="off" name="highImpedance" type="saHiZState"/>
+    <attribute value="80" name="highThreshold" type="giString"/>
+    <attribute value="20" name="lowThreshold" type="giString"/>
+    <attribute value="X" name="midvLogic" type="saLogicValue"/>
+    <attribute value="" name="midvTime" type="giString"/>
+    <attribute value="0.1" name="minv" type="giString"/>
+    <attribute value="Z" name="minvLogic" type="saLogicValue"/>
+    <attribute value="%" name="thresholdUnit" type="saIEThresholdUnit"/>
+    <attribute value="/vdd!" name="vdd" type="giString"/>
+    <attribute value="" name="xband" type="giString"/>
+   </object>
+   <object version="1" name="a2dInterfaceElements" type="saA2DInterfaceElement">
+    <attribute value="" name="ceff" type="giString"/>
+    <attribute value="/c" name="element" type="giString"/>
+    <attribute value="net" name="elementType" type="saElementType"/>
+    <attribute value="off" name="highImpedance" type="saHiZState"/>
+    <attribute value="80" name="highThreshold" type="giString"/>
+    <attribute value="20" name="lowThreshold" type="giString"/>
+    <attribute value="X" name="midvLogic" type="saLogicValue"/>
+    <attribute value="" name="midvTime" type="giString"/>
+    <attribute value="0.1" name="minv" type="giString"/>
+    <attribute value="Z" name="minvLogic" type="saLogicValue"/>
+    <attribute value="%" name="thresholdUnit" type="saIEThresholdUnit"/>
+    <attribute value="/vdd!" name="vdd" type="giString"/>
+    <attribute value="" name="xband" type="giString"/>
+   </object>
+   <object version="1" name="a2dInterfaceElements" type="saA2DInterfaceElement">
+    <attribute value="" name="ceff" type="giString"/>
+    <attribute value="/d" name="element" type="giString"/>
+    <attribute value="net" name="elementType" type="saElementType"/>
+    <attribute value="off" name="highImpedance" type="saHiZState"/>
+    <attribute value="80" name="highThreshold" type="giString"/>
+    <attribute value="20" name="lowThreshold" type="giString"/>
+    <attribute value="X" name="midvLogic" type="saLogicValue"/>
+    <attribute value="" name="midvTime" type="giString"/>
+    <attribute value="0.1" name="minv" type="giString"/>
+    <attribute value="Z" name="minvLogic" type="saLogicValue"/>
+    <attribute value="%" name="thresholdUnit" type="saIEThresholdUnit"/>
+    <attribute value="/vdd!" name="vdd" type="giString"/>
+    <attribute value="" name="xband" type="giString"/>
+   </object>
+  </collection>
+  <attribute value="0" name="alwaysUsePortMapOption" type="giBoolean"/>
+  <attribute value="[%d]" name="busFormat" type="giString"/>
+  <attribute value="snps_cm_*.vams" name="connectModulesInstallDirFilePatterns" type="giString"/>
+  <attribute value="" name="connectModulesInstallDirFiles" type="giString"/>
+  <attribute value="" name="connectModulesUserDir" type="giString"/>
+  <attribute value="" name="connectModulesUserDirFilePatterns" type="giString"/>
+  <collection name="connectRuleElements">
+   <object version="1" name="connectRuleElements" type="saConnectRuleElement">
+    <attribute value="merged" name="connectMode" type="saElementConnectMode"/>
+    <attribute value="ddiscrete" name="discipline" type="giString"/>
+    <attribute value="1" name="enabled" type="giBoolean"/>
+    <attribute value="snps_cr_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+    <attribute value="" name="params" type="giStringList"/>
+    <attribute value="" name="scope" type="giString"/>
+    <attribute value="global" name="scopeType" type="saElementScopeType"/>
+    <attribute value="voltage" name="supplyType" type="saElementSupplyType"/>
+    <attribute value="" name="vddNet" type="giString"/>
+    <attribute value="" name="vssNet" type="giString"/>
+    <attribute value="1.8" name="vsup" type="giString"/>
+   </object>
+  </collection>
+  <attribute value="snps_cr_*.vams" name="connectRulesInstallDirFilePatterns" type="giString"/>
+  <attribute value="" name="connectRulesInstallDirFiles" type="giString"/>
+  <attribute value="" name="connectRulesUserDirFilePatterns" type="giString"/>
+  <collection name="connectionModules">
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_a2d_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_a2d_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_a2d_ana_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_a2d_ana_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_a2d_pss_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_a2d_pss_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_ad_bidir_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_ad_bidir_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_ad_bidir_ana_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_ad_bidir_ana_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_ad_bidir_pss_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_ad_bidir_pss_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_bidir_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_d2a_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_d2a_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_d2a_ana_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_d2a_ana_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_d2a_pss_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_d2a_pss_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_e2r_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_e2r_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_er_bidir_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_er_bidir_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_r2e_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionModules" type="saConnectionModule">
+    <attribute value="snps_cm_r2e_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+  </collection>
+  <collection name="connectionRules">
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_1p2_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_1p8_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_3p3_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_ana_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_ana_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_pss_0.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+   <object version="1" name="connectionRules" type="saConnectionRule">
+    <attribute value="snps_cr_pss_1.vams" name="fileName" type="giString"/>
+    <attribute value="0" name="isUserFile" type="giBoolean"/>
+   </object>
+  </collection>
+  <collection name="d2aInterfaceElements"/>
+  <attribute value="ddiscrete" name="defaultNetDiscipline" type="giString"/>
+  <attribute value="" name="defaultResistanceMapFile" type="giString"/>
+  <attribute value="basic" name="disciplineResolution" type="saDisciplineResolution"/>
+  <collection name="e2nInterfaceElements"/>
+  <collection name="e2rInterfaceElements"/>
+  <attribute value="0" name="enableRTVS" type="giBoolean"/>
+  <attribute value="" name="existingControlFile" type="giString"/>
+  <attribute value="" name="extraOptions" type="giString"/>
+  <attribute value="" name="extraOptionsTop" type="giString"/>
+  <attribute value="" name="extraOptionsUcli" type="giString"/>
+  <attribute value="" name="extraOptionsUcliTop" type="giString"/>
+  <attribute value="cosim" name="flowType" type="saMixedSignalFlow"/>
+  <collection name="forceDigitalNets"/>
+  <attribute value="0" name="ieReportAMS" type="giBoolean"/>
+  <attribute value="0" name="ieReportActivity" type="giBoolean"/>
+  <attribute value="0" name="mviewVlogNoPortSwap" type="giBoolean"/>
+  <collection name="n2eInterfaceElements"/>
+  <collection name="nodeResistanceOverrides"/>
+  <collection name="r2eInterfaceElements"/>
+  <collection name="resistanceMapConfigs"/>
+  <attribute value="0" name="resolveXInstPrefix" type="giBoolean"/>
+  <attribute value="1" name="spicePortOrderAsVlog" type="giBoolean"/>
+  <attribute value="snps_sptop" name="spiceTopName" type="giString"/>
+  <attribute value="0" name="useExistingControlFile" type="giBoolean"/>
+ </object>
+</file-format>

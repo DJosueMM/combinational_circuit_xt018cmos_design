@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Apr 18 11:22:58 2024-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" name="saveOptions" type="saSaveOptions">
+  <attribute value="" name="emTStart" type="giString"/>
+  <attribute value="" name="emTStop" type="giString"/>
+  <attribute value="0" name="enableEM" type="giBoolean"/>
+  <attribute value="0" name="enableVDRC" type="giBoolean"/>
+  <attribute value="0" name="power" type="giBoolean"/>
+  <attribute value="selected" name="save" type="giString"/>
+  <attribute value="selected" name="saveDigital" type="giString"/>
+  <attribute value="0" name="saveDigitalLevel" type="giInt"/>
+  <attribute value="selected" name="saveDigitalPorts" type="giString"/>
+  <attribute value="0" name="saveDigitalPortsLevel" type="giInt"/>
+  <attribute value="0" name="saveIEPortsAll" type="giBoolean"/>
+  <attribute value="0" name="saveIEPortsLevel" type="giInt"/>
+  <attribute value="0" name="saveLevel" type="giInt"/>
+  <collection name="saveOptionsInstances"/>
+  <attribute value="0" name="saveVerilogABranchCurrentsAll" type="giBoolean"/>
+  <attribute value="0" name="saveVerilogABranchCurrentsLevel" type="giInt"/>
+  <attribute value="0" name="saveVerilogABranchVoltagesAll" type="giBoolean"/>
+  <attribute value="0" name="saveVerilogABranchVoltagesLevel" type="giInt"/>
+  <attribute value="0" name="saveVerilogAVarsAll" type="giBoolean"/>
+  <attribute value="0" name="saveVerilogAVarsLevel" type="giInt"/>
+  <attribute value="selected" name="subcktCurrents" type="giString"/>
+  <attribute value="1" name="subcktCurrentsLevel" type="giInt"/>
+  <attribute value="selected" name="terminalCurrents" type="giString"/>
+  <attribute value="0" name="terminalCurrentsLevel" type="giInt"/>
+  <attribute value="selected" name="terminalVoltages" type="giString"/>
+  <attribute value="0" name="terminalVoltagesLevel" type="giInt"/>
+  <attribute value="0" name="totalPower" type="giBoolean"/>
+  <attribute value="" name="vdrcTStart" type="giString"/>
+  <attribute value="" name="vdrcTStop" type="giString"/>
+ </object>
+</file-format>
