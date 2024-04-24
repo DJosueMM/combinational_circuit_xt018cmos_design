@@ -1,4 +1,4 @@
-# Combinational_Circuit_xh018cmos_Design
+# Combinational_Circuit_xt018cmos_Design
 Tarea 2 Curso: Introducción al Diseño de Circuitos Integrados
 
 Diseñar un circuito CMOS estático para calcular F = (A + B)(C + D) con el menor retardo posible. Cada entrada puede tener un máximo de 30λ de ancho de transistor. La salida debe manejar una carga equivalente a 500λ de ancho de transistor. Seleccionar tamaños de transistores para lograr el menor retardo y estimar este retardo en τ.
