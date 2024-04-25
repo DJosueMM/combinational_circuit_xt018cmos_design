@@ -42,7 +42,7 @@ En el caso de consumo promedio de potencia se llevo a cabo el siguiente análisi
 
 
 
-## Parte 2. Determinación de los tiempos de retardo $t_{pdr}$ , $t_{pdr}$ y de contaminación $t_{cdr}$ , $t_{cdr}$
+## Parte 2. Determinación de los tiempos de retardo $t_{pdr}$ , $t_{pdf}$ y de contaminación $t_{cdr}$ , $t_{cdf}$
 Para el análsis de tiempos de retardo y de contaminación se utilizó la aproximación de Elmore y considerando una tecnología de transistores 1.8V (ne,pe) de un proceso xt018 - 0.18 µm donde el τ de subida es de 21.31ps y  τ de bajada de 30.64ps.
 
 ### Compuerta compleja
@@ -113,7 +113,8 @@ Para realizar la verificación del funcionamiento de la compuerta se realizo el 
 
 
 El resultado de la simulación del esquemático la compuerta compleja es el siguiente.
-![Tiempos_compuesta](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/d9a0948d-e963-486a-872a-d20f79c9f63b)
+![sim_compuerta_compuesta](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/69d35ce5-a84c-4a07-9c34-09172a620d7a)
+
 
 
 ### Compuerta con etapas simples
@@ -151,9 +152,43 @@ Este es el layout de la compuerta NOR con transistores P de 540nm y N de 270nm.
 Este es el layout de una compuerta NOR con transistores P de 720nm y N de 360nm.
 ![basic_cells_nor_sal_2x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/4d9a60f7-cb35-4d54-a5b1-c9deeccb90c5)
 
+
 El resultado de la simulación del layout la compuerta etapas simples es el siguiente.
 
+## Parte 6. Trazado con las capacitacias parásitas
 
+## Comparativa 
+
+### Compuerta compleja
+|  Tiempos       | Teórico   | Esquemáctico   | Layout       |
+|----------------|-----------|----------------|--------------|
+| $t_{pdf}$      | 584.81ps  |                |              |
+| $t_{cdf}$      | 324.37ps  |                |              |
+| $t_{pdr}$      | 432.88ps  |                |              |
+| $t_{cdr}$      | 262.40ps  |                |              |
+
+
+|  Potecia       | Valor     |
+|----------------|-----------|
+| Teórico        | 4.44pW    |   
+| Esquemáctico   |           |
+| Layout         |           |
+
+
+### Compuerta con etapas simples
+
+|  Tiempos       | Teórico   | Esquemáctico   | Layout       |
+|----------------|-----------|----------------|--------------|
+| $t_{pdf}$      | 526.18ps  |                |              |
+| $t_{cdf}$      | 462.25ps  |                |              |
+| $t_{pdr}$      | 362.32ps  |                |              |
+| $t_{cdr}$      | 362.32ps  |                |              |
+
+|  Potecia       | Valor     |
+|----------------|-----------|
+| Teórico        | 27.14pW   |   
+| Esquemáctico   |           |
+| Layout         |           |
 
 
 Pendiente imágenes y análisis de la simulación de los tiempos de propagación y contaminación.
