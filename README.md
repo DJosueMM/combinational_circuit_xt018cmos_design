@@ -23,7 +23,7 @@ En el caso de consumo promedio de potencia se utilizó la ecuación (1).
 $$ Potencia = α \cdot C \cdot (V_{DD})^2 \cdot f  \quad(1)$$
 
 Para poder realizar el cálculo se tuvo que análizar el factor de actividad, además de determinar la capacitancia de la compuerta, todos esos datos se presentan a continuación.
-![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/362c514b-45c8-4e6a-9856-ae578cfff5e6)
+![image](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/4671312a-94c2-4599-a707-ae7e80ae5393)
 
 ### Compuerta con etapas simples
 Los resultados de la estimación del retardo para la compuerta con varias etapas más simples son los siguientes.
@@ -100,53 +100,60 @@ Se examinó cada etapa, para el caso de la primera etapa (nor entrada) es necesa
 ## Parte 4. Verificación funcional eléctrica y lógica para ambos circuitos
 
 ### Compuerta compleja
-Se montó el esquemático de diseño de la compuerta compleja invertida 
+A continuación, el esquemático de la compuerta compleja invertida. 
 ![basic_cells_comp_gatet2_schematic](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/396bd629-e9b7-493c-9ed2-63500812a2a1)
 
 
-Inversor
-
+A continuación, el esquemático del inversor. 
 ![basic_cells_inv1x1_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/6710b093-360c-4337-a3fa-cd09cfd7f253)
+
+
+Para realizar la verificación del funcionamiento de la compuerta se realizo el siguiente diagrama, este sirve para analizar los resultados del esquemático pero también del layout que se motrará más adelante.
+![basic_cells_test_compuesta_completa_mixta_schematic](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/3464e870-068f-4791-a130-95d5adbf49b4)
+
+
+El resultado de la simulación del esquemático la compuerta compleja es el siguiente.
+![Tiempos_compuesta](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/d9a0948d-e963-486a-872a-d20f79c9f63b)
 
 
 ### Compuerta con etapas simples
 Para la primera nor se implemento el siguiente esquema de transistores.
-
 ![basic_cells_nor_ent_2x1_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/4f297619-0d02-45ff-8765-c971eb206e97)
 
-Por otro lado para la nor de salida se realizo el siguiente esquema.
-
+Por otro lado, para la nor de salida se realizó el siguiente esquemático.
 ![basic_cells_nor_sal_2x1_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/827b5dde-2d40-405a-a11f-2d18ed25a87e)
 
-Para realizar la verficación del funcionamiento de la compuerta se realizo el siguiente diagrama.
 
+Este es el esquemático de la verificación del funcionamiento de la compuerta con etapas simples.
 ![basic_cells_test_compuerta_simple_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/25977f50-510c-4f97-9010-d3815e81cab6)
+
+El resultado de la simulación del esquemático la compuerta con etapas simples es el siguiente.
+
 
 
 ## Parte 5. Trazado con las capacitacias parásitas
 
 ### Compuerta compleja
-Compuerta compleja
-
+Para la compuerta compleja inversa se diseño el siguiente layout con transistores P de 540nm y N de 270nm.
 ![comp_gatet2_starrc_C_RC](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/5dc1d3e4-7fa3-421e-a3cb-f195d771558c)
 
-Inversor
-
+Este es el layout que se trazo para el inversor con transistores P de 720nm y N de 360nm.
 ![basic_cells_inv1x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/cdb962bf-5840-4492-8250-280192988cf6)
 
+El resultado de la simulación del layout la compuerta compleja es el siguiente.
 
 
 ### Compuerta con etapas simples
-Este es el layout de una compuerta NOR con transistores P de 540nm y N de 270nm.
-
+Este es el layout de la compuerta NOR con transistores P de 540nm y N de 270nm.
 ![basic_cells_nor_ent_2x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b35c99d2-4494-483f-b1d6-1cb00523535f)
 
 
 Este es el layout de una compuerta NOR con transistores P de 720nm y N de 360nm.
-
 ![basic_cells_nor_sal_2x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/4d9a60f7-cb35-4d54-a5b1-c9deeccb90c5)
 
+El resultado de la simulación del layout la compuerta etapas simples es el siguiente.
 
 
 
-Pendiente imágenes y análisis de la simulación de los tiempos de propagación y contaminación, además del layout de las dos compuertas ya que se está esperando a que el servidor funcione de nuevo.
+
+Pendiente imágenes y análisis de la simulación de los tiempos de propagación y contaminación.
