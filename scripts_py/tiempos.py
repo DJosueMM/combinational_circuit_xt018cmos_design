@@ -35,7 +35,7 @@ fig, axs = plt.subplots(5, 1, figsize=(10, 12), sharex=True)
 
 # Grafica las curvas en cada subfigura con diferentes colores
 axs[0].plot(x, y1, label='a', color='red')
-axs[0].set_title('Tiempos de Compuerta compuesta')
+axs[0].set_title('Compuerta Compuesta')
 # axs[0].set_ylim([None, 2])
 axs[0].set_xlim([0, 85]) 
 axs[0].legend()
@@ -50,7 +50,7 @@ axs[2].legend()
 axs[3].plot(x, y4, label='d', color='orange')
 axs[3].legend()
 
-axs[4].plot(x, y5, label='out', color='purple')
+axs[4].plot(x, y5, label='f', color='purple')
 axs[4].set_xlabel('Tiempo (ns)')
 axs[4].legend()
 
