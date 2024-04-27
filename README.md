@@ -155,7 +155,18 @@ Este es el layout de una compuerta NOR con transistores P de 720nm y N de 360nm.
 
 El resultado de la simulación del layout la compuerta etapas simples es el siguiente.
 
-## Parte 6. Trazado con las capacitacias parásitas
+## Parte 6. Calculo de potencia tomando en cuenta la actividad de las compuertas
+
+En este análisis, se examina el gasto de energía de compuertas sencillas y complejas en circuitos digitales. Se toma en cuenta la probabilidad de que las entradas estén en estado "alto" para calcular el consumo de energía de cada tipo de compuerta. 
+
+La probablidad de cada entrada está dada por: 
+
+$$P_{entrada} = \frac{1}{4}$$
+
+Con la probabalidad de cada entrada, se puede calcular el factor de actividad utilizando la mayor frecuencia posible:
+
+$$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * f  $$
+
 
 ## Comparativa 
 
