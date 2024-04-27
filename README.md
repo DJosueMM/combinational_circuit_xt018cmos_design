@@ -171,7 +171,7 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 ## Comparativa 
 
 ### Compuerta compleja
-|  Tiempos       | Teórico   | Esquemáctico   | Layout       |
+|  Tiempos       | Teórico   | Esquemático    | Layout       |
 |----------------|-----------|----------------|--------------|
 | $t_{pdf}$      | 584.81ps  |                |              |
 | $t_{cdf}$      | 324.37ps  |                |              |
@@ -182,13 +182,13 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 |  Potecia       | Valor     |
 |----------------|-----------|
 | Teórico        | 4.44pW    |   
-| Esquemáctico   |           |
+| Esquemático    |           |
 | Layout         |           |
 
 
 ### Compuerta con etapas simples
 
-|  Tiempos       | Teórico   | Esquemáctico   | Layout       |
+|  Tiempos       | Teórico   | Esquemático    | Layout       |
 |----------------|-----------|----------------|--------------|
 | $t_{pdf}$      | 526.18ps  |                |              |
 | $t_{cdf}$      | 462.25ps  |                |              |
@@ -198,7 +198,7 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 |  Potecia       | Valor     |
 |----------------|-----------|
 | Teórico        | 27.14pW   |   
-| Esquemáctico   |           |
+| Esquemático    |           |
 | Layout         |           |
 
 
