@@ -46,7 +46,7 @@ En el caso de consumo promedio de potencia se llevo a cabo el siguiente análisi
 Para el análsis de tiempos de retardo y de contaminación se utilizó la aproximación de Elmore y considerando una tecnología de transistores 1.8V (ne,pe) de un proceso xt018 - 0.18 µm donde el τ de subida es de 21.31ps y  τ de bajada de 30.64ps.
 
 ### Compuerta compleja
-Para el caso de la compleja se analizó en dos partes, en esta primera parte de analiza la compuerta compleja invertida.
+Para el caso de la compleja se analizó en dos partes, en esta primera parte de analiza la compuerta compleja.
 <p align="center">
 <img src="https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/b3581206-7c6e-48c4-992c-ab173481afd3" width="550">
 </p>
