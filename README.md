@@ -173,10 +173,10 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 ### Compuerta compleja
 |  Tiempos       | Teórico   | Esquemático    | Layout       |
 |----------------|-----------|----------------|--------------|
-| $t_{pdf}$      | 584.81ps  |                |              |
-| $t_{cdf}$      | 324.37ps  |                |              |
-| $t_{pdr}$      | 432.88ps  |                |              |
-| $t_{cdr}$      | 262.40ps  |                |              |
+| $t_{pdf}$      | 584.81ps  |                |     796ps    |
+| $t_{cdf}$      | 324.37ps  |                |     667ps    |
+| $t_{pdr}$      | 432.88ps  |                |     949ps    |
+| $t_{cdr}$      | 262.40ps  |                |     804ps    |
 
 
 |  Potecia       | Valor     |
