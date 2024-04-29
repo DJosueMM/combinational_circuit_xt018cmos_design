@@ -190,10 +190,10 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 
 |  Tiempos       | Teórico   | Esquemático    | Layout       |
 |----------------|-----------|----------------|--------------|
-| $t_{pdf}$      | 526.18ps  |                |              |
-| $t_{cdf}$      | 462.25ps  |                |              |
-| $t_{pdr}$      | 362.32ps  |                |              |
-| $t_{cdr}$      | 362.32ps  |                |              |
+| $t_{pdf}$      | 526.18ps  |   523ps        |  525ps       |
+| $t_{cdf}$      | 462.25ps  |   269ps        |  278ps       |
+| $t_{pdr}$      | 362.32ps  |   1.17ns       |  1.17ns      |
+| $t_{cdr}$      | 362.32ps  |   1.16ns       |  1.17ns      |
 
 |  Potecia       | Valor     |
 |----------------|-----------|
