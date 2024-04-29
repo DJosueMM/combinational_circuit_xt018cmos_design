@@ -75,7 +75,8 @@ Posteriomente, se analiza el caso de la segunda NOR, en este caso la de salida.
 ![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/08cfa69b-da2c-4bd2-aa06-9a645ed3b110)
 
 Por último, para establecer en su totalidad los tiempos de retardo y de contaminación, se analizó el camino necesario para cada tiempo en específico y se sumaron los resutados.
-![image](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/1aaed5c4-4fd9-4a8a-ae74-2d6241bbc3ee)
+![image](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/e3812a4e-5b7c-4886-8b31-1ccde610b5b2)
+
 
 
 ## Parte 3. Diseño de las compuertas y selección de tamaños
