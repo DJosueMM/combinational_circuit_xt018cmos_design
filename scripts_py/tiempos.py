@@ -6,7 +6,7 @@ import numpy as np
 data = []
 
 # Ruta relativa al archivo CSV
-csv_file = 'sim/sim_mixta_compuesta_inv_layout.csv'
+csv_file = 'sim/sim_maxf_layout_compuesta.csv'
 
 # Lee el archivo CSV y guarda los datos en la lista, ignorando la segunda fila (encabezado)
 with open(csv_file, newline='') as csvfile:
@@ -25,7 +25,7 @@ y1 = data[:, 1]
 y2 = data[:, 2]
 y3 = data[:, 3]
 y4 = data[:, 4]
-y5 = data[:, 5]
+y5 = data[:, 6]
 
 # Escala los valores del eje x a picosegundos
 x *= 1e9
@@ -35,17 +35,17 @@ fig, axs = plt.subplots(5, 1, figsize=(10, 12), sharex=True)
 
 # Grafica las curvas en cada subfigura con diferentes colores
 axs[0].plot(x, y1, label='a', color='red')
-axs[0].set_title('Compuerta Compuesta')
+axs[0].set_title('Layout Compuerta Compuesta a máxima frecuencia')
 # axs[0].set_ylim([None, 2])
-axs[0].set_xlim([0, 85]) 
-axs[0].legend()
+axs[0].set_xlim([0, 20]) 
+axs[0].legend(loc='upper right')
 
 axs[1].plot(x, y2, label='b', color='blue')
-axs[1].legend()
+axs[1].legend(loc='upper right')
 
 axs[2].plot(x, y3, label='c', color='green')
 axs[2].set_ylabel('Voltaje (V)')
-axs[2].legend()
+axs[2].legend(loc='upper right')
 
 axs[3].plot(x, y4, label='d', color='orange')
 axs[3].legend()
