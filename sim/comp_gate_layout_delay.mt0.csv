@@ -1,0 +1,5 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='U-2023.03-SP2 linux6' PARAM_COUNT=0
+$OPTION MEASFORM=3
+.TITLE '*  generated for: finesimprovcs'
+delayr,delayf,delaya,pwr,temper,alter#
+ 3.750e-09, 7.400e-09, 5.575e-09, 2.881e-04,  25.0000,1

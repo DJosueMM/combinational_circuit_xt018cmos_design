@@ -1,0 +1,10 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='U-2023.03-SP2 linux6' PARAM_COUNT=2
+.TITLE '* capdelay.hsp'
+ index            cpermicron       errorr           errorf          
+                  cpermic          invr             capr            
+                  invf             capf             temper          
+                  alter#          
+ 3                 1.315e-15       -3.319e-12       -2.536e-12      
+                   1.315e-15        4.354e-11        4.686e-11      
+                   7.446e-11        7.699e-11         70.0000       
+                 1               
