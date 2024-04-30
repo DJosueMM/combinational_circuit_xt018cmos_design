@@ -113,7 +113,7 @@ Para realizar la verificación del funcionamiento de la compuerta se realizo el 
 ![basic_cells_test_compuesta_completa_mixta_schematic](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/3464e870-068f-4791-a130-95d5adbf49b4)
 
 
-El resultado de la simulación del esquemático la compuerta compleja es el siguiente.
+El resultado de la simulación del esquemático la compuerta compleja con el inversor es el siguiente.
 ![sim_compuerta_compuesta](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/69d35ce5-a84c-4a07-9c34-09172a620d7a)
 
 
@@ -130,6 +130,7 @@ Este es el esquemático de la verificación del funcionamiento de la compuerta c
 ![basic_cells_test_compuerta_simple_schematic](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/25977f50-510c-4f97-9010-d3815e81cab6)
 
 El resultado de la simulación del esquemático la compuerta con etapas simples es el siguiente.
+![sim_compuerta_simple](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/6e0bb79f-4194-49ce-b920-016b4f620fa6)
 
 
 
@@ -142,7 +143,8 @@ Para la compuerta compleja inversa se diseño el siguiente layout con transistor
 Este es el layout que se trazo para el inversor con transistores P de 720nm y N de 360nm.
 ![basic_cells_inv1x1_starrc](https://github.com/DJosueMM/combinational_circuit_xh018cmos_design/assets/125601912/cdb962bf-5840-4492-8250-280192988cf6)
 
-El resultado de la simulación del layout la compuerta compleja es el siguiente.
+El resultado de la simulación del layout la compuerta compleja con inversor es el siguiente.
+![sim_compuerta_compuesta_layout](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/3330b45e-3874-4fd1-88da-c49f7861aab5)
 
 
 ### Compuerta con etapas simples
@@ -155,6 +157,8 @@ Este es el layout de una compuerta NOR con transistores P de 720nm y N de 360nm.
 
 
 El resultado de la simulación del layout la compuerta etapas simples es el siguiente.
+![sim_compuerta_simple_layout](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/f7cc4cb3-59aa-4172-ae9b-0248d60a9451)
+
 
 ## Parte 6. Calculo de potencia tomando en cuenta la actividad de las compuertas
 
