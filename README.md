@@ -186,6 +186,11 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 | $t_{cdr}$      | 262.40ps  |                |     804ps    |
 
 
+Para determinar mediante simulación la potencia se realizó bajo las siguientes condiciones.
+![sim_compuerta_compuesta_maxf](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/3fb737af-5de4-47d0-8e4f-4e2762c045f8)
+
+
+
 |  Potecia       | Valor     |
 |----------------|-----------|
 | Teórico        | 426.89µW  |   
