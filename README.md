@@ -175,7 +175,7 @@ Con la probabalidad de cada entrada, se puede calcular el factor de actividad ut
 $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * f  $$
 
 
-## Comparativa 
+## Comparativa de tiempos
 
 ### Compuerta compleja
 |  Tiempos       | Teórico   | Esquemático    | Layout       |
@@ -184,19 +184,6 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 | $t_{cdf}$      | 324.37ps  |     681ps      |     667ps    |
 | $t_{pdr}$      | 432.88ps  |     804ps      |     949ps    |
 | $t_{cdr}$      | 262.40ps  |     519ps      |     804ps    |
-
-
-Para determinar mediante simulación la potencia se realizó bajo las siguientes condiciones.
-![sim_compuerta_compuesta_maxf](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/3fb737af-5de4-47d0-8e4f-4e2762c045f8)
-
-
-
-|  Potecia       | Valor     |
-|----------------|-----------|
-| Teórico        | 426.89µW  |   
-| Esquemático    |           |
-| Layout         |  288µW    |
-
 
 ### Compuerta con etapas simples
 
@@ -207,10 +194,24 @@ Para determinar mediante simulación la potencia se realizó bajo las siguientes
 | $t_{pdr}$      | 479.53ps  |   907ns        |  913ns       |
 | $t_{cdr}$      | 362.32ps  |   839ns        |  870ns       |
 
+
+## Comparativa de potencias
+Para determinar mediante simulación la potencia se realizó bajo las siguientes condiciones.
+![sim_compuerta_compuesta_maxf](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/3fb737af-5de4-47d0-8e4f-4e2762c045f8)
+
+### Compuerta compleja
+|  Potecia       | Valor     |
+|----------------|-----------|
+| Teórico        | 426.89µW  |   
+| Esquemático    |  326µW    |
+| Layout         |  288µW    |
+
+
+### Compuerta con etapas simples
 |  Potecia       | Valor     |
 |----------------|-----------|
 | Teórico        | 1.94µW    |   
-| Esquemático    |           |
-| Layout         |  317.7µW  |
+| Esquemático    | 348.7µW   |
+| Layout         | 317.7µW   |
 
 
