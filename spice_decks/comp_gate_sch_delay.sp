@@ -20,6 +20,14 @@
 * View Search List : hspice hspiceD schematic verilog functional behavioral vhdl_config vhdl spice veriloga verilogams
 * View Stop List   : hspice hspiceD functional behavioral symbol
 ********************************************************************************
+.global gnd vdd_
+********************************************************************************
+* Library          : basic_cells
+* Cell             : comp_gatet2
+* View             : schematic
+* View Search List : hspice hspiceD schematic verilog functional behavioral vhdl_config vhdl spice veriloga verilogams
+* View Stop List   : hspice hspiceD functional behavioral symbol
+********************************************************************************
 .subckt comp_gatet2 a b c d f
 xm29 f c net85 gnd ne w=270n l=180n as=1.296e-13 ad=1.296e-13 ps=1.5e-06 pd=1.5e-06
 + nrs=1 nrd=1 m='1*1' par1='1*1' xf_subext=0
@@ -109,16 +117,25 @@ xm7 y a vdd_ vdd_ pe w=720n l=180n as=3.456e-13 ad=3.456e-13 ps=2.4e-06 pd=2.4e-
 + nrs=0.375 nrd=0.375 m='1*1' par1='1*1' xf_subext=0
 .ends inv1x1
 
-
-Vina     a       gnd     pulse 0 'SUPPLY' 5ns 150ps 150ps 5ns 10ns
-Vinb     b       gnd     pulse 0 'SUPPLY' 10ns 150ps 150ps 10ns 20ns
-Vinc     c       gnd     pulse 0 'SUPPLY' 20ns 150ps 150ps 20ns 40ns
-Vind     d       gnd     pulse 0 'SUPPLY' 40ns 150ps 150ps 40ns 80ns
+********************************************************************************
+* Library          : basic_cells
+* Cell             : test_compuesta_completa_mixta
+* View             : schematic
+* View Search List : hspice hspiceD schematic verilog functional behavioral vhdl_config vhdl spice veriloga verilogams
+* View Stop List   : hspice hspiceD functional behavioral symbol
+********************************************************************************
 
 xi1 a b c d e comp_gatet2
-xi2 e f inv1x1
+xi2 f e inv1x1
 c3 f gnd c=590f
 v4 vdd_ gnd dc=1.8
+
+.param T = 1.608ns
+
+Vina     a       gnd     pulse 0 'SUPPLY' 'T/2'      60ps 60ps 'T/2'	  'T'
+Vinb     b	 gnd     pulse 0 'SUPPLY' '(2*T)/2'  60ps 60ps '(2*T)/2'  '2*T'
+Vinc     c	 gnd     pulse 0 'SUPPLY' '(4*T)/2'  60ps 60ps '(4*T)/2'  '4*T'
+Vind     d	 gnd     pulse 0 'SUPPLY' '(8*T)/2'  60ps 60ps '(8*T)/2'  '8*T'
 
 ***********************************************************************
 * Measurements
@@ -137,10 +154,10 @@ v4 vdd_ gnd dc=1.8
 
 .measure delayA param='(delayR + delayF)/2'
 
-.measure pwr AVG 'P(v4)*-1' FROM=0ns TO=1ns
+.measure pwr AVG 'P(v4)*-1' FROM=0ns TO=16ns
 .option measform=3
 
 
-.tran 1p 100n
+.tran 1p 16n
 
 .end
