@@ -23,7 +23,8 @@ En el caso de consumo promedio de potencia se utilizó la ecuación (1).
 $$ Potencia = α \cdot C \cdot (V_{DD})^2 \cdot f  \quad(1)$$
 
 Para poder realizar el cálculo se tuvo que análizar el factor de actividad, además de determinar la capacitancia de la compuerta, todos esos datos se presentan a continuación.
-![image](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/4671312a-94c2-4599-a707-ae7e80ae5393)
+![image](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/6f51ab88-7974-49fb-8565-db7326b4f2d2)
+
 
 ### Compuerta con etapas simples
 Los resultados de la estimación del retardo para la compuerta con varias etapas más simples son los siguientes.
@@ -37,7 +38,8 @@ La frecuencia máxima en la que puede operar la compuerta es:
 $$F_{max}= \frac{1}{539.26ps} \approx  1.85GHz$$
 
 En el caso de consumo promedio de potencia se llevo a cabo el siguiente análisis:
-![image](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/ab92b097-06c5-41f7-b7f7-08a7af9108da)
+![image](https://github.com/DJosueMM/combinational_circuit_xt018cmos_design/assets/125601912/4c143c48-28b8-4a8f-a6b3-56ae1693eafe)
+
 
 
 
@@ -186,9 +188,9 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 
 |  Potecia       | Valor     |
 |----------------|-----------|
-| Teórico        | 4.44pW    |   
+| Teórico        | 426.89µW  |   
 | Esquemático    |           |
-| Layout         |           |
+| Layout         |  288µW    |
 
 
 ### Compuerta con etapas simples
@@ -197,12 +199,12 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 |----------------|-----------|----------------|--------------|
 | $t_{pdf}$      | 526.18ps  |   523ps        |  525ps       |
 | $t_{cdf}$      | 462.25ps  |   269ps        |  278ps       |
-| $t_{pdr}$      | 362.32ps  |   1.17ns       |  1.17ns      |
+| $t_{pdr}$      | 479.53ps  |   1.17ns       |  1.17ns      |
 | $t_{cdr}$      | 362.32ps  |   1.16ns       |  1.17ns      |
 
 |  Potecia       | Valor     |
 |----------------|-----------|
-| Teórico        | 27.14pW   |   
+| Teórico        | 1.94µW    |   
 | Esquemático    |           |
 | Layout         |           |
 
