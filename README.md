@@ -180,10 +180,10 @@ $$P_{s} = \alpha * C * Vdd^2 * f = \alpha * (C_{área} * Area_{chip}) * Vdd^2 * 
 ### Compuerta compleja
 |  Tiempos       | Teórico   | Esquemático    | Layout       |
 |----------------|-----------|----------------|--------------|
-| $t_{pdf}$      | 584.81ps  |                |     796ps    |
-| $t_{cdf}$      | 324.37ps  |                |     667ps    |
-| $t_{pdr}$      | 432.88ps  |                |     949ps    |
-| $t_{cdr}$      | 262.40ps  |                |     804ps    |
+| $t_{pdf}$      | 584.81ps  |     782ps      |     796ps    |
+| $t_{cdf}$      | 324.37ps  |     681ps      |     667ps    |
+| $t_{pdr}$      | 432.88ps  |     804ps      |     949ps    |
+| $t_{cdr}$      | 262.40ps  |     519ps      |     804ps    |
 
 
 Para determinar mediante simulación la potencia se realizó bajo las siguientes condiciones.
@@ -204,14 +204,13 @@ Para determinar mediante simulación la potencia se realizó bajo las siguientes
 |----------------|-----------|----------------|--------------|
 | $t_{pdf}$      | 526.18ps  |   523ps        |  525ps       |
 | $t_{cdf}$      | 462.25ps  |   269ps        |  278ps       |
-| $t_{pdr}$      | 479.53ps  |   1.17ns       |  1.17ns      |
-| $t_{cdr}$      | 362.32ps  |   1.16ns       |  1.17ns      |
+| $t_{pdr}$      | 479.53ps  |   907ns        |  913ns       |
+| $t_{cdr}$      | 362.32ps  |   839ns        |  870ns       |
 
 |  Potecia       | Valor     |
 |----------------|-----------|
 | Teórico        | 1.94µW    |   
 | Esquemático    |           |
-| Layout         |           |
+| Layout         |  317.7µW  |
 
 
-Pendiente imágenes y análisis de la simulación de los tiempos de propagación y contaminación.
